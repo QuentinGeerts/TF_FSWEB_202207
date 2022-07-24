@@ -1,0 +1,33 @@
+{
+  "name": "demo-npm",
+  "version": "0.0.1",
+  "description": "Une petite démo sur le node package manager",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinGeerts/TF_FSWeb_demo_npm.git"
+  },
+  "keywords": [
+    "technofutur",
+    "fullstack",
+    "demo",
+    "npm"
+  ],
+  "author": "Quentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinGeerts/TF_FSWeb_demo_npm/issues"
+  },
+  "homepage": "https://github.com/QuentinGeerts/TF_FSWeb_demo_npm#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
