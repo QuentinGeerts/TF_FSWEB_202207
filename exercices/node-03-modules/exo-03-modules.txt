@@ -1,0 +1,21 @@
+# Exercice - Énoncé
+
+## Modules - Créer un programme *node*
+
+- Il doit etre configuré avec npm
+- Il doit utiliser le systeme des modules
+
+
+> Objectif : 
+
+Réaliser une application qui permet de connaitre le 
+nombre de jours avant les events suivants :
+- Le jour de Noël
+- Son anniversaire (communiqué par l'utilisateur)
+- Les vacances d'été (scolaire)
+- ...  
+
+> Remarques :
+
+Si nous sommes dans cette période des vacances =>
+Lui indiqué que l'event est en cours

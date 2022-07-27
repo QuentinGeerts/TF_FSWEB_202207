@@ -24,7 +24,7 @@ const coll = [42, 5, 9, 12, 32, 61, 20, 0, 3, 21]
 
 const res1 = filter(coll, (nb) => nb % 2 == 0) // Nb paires
 const res2 = filter(coll, (nb) => nb % 2 != 0) // Nb impaires
-const res3 = filter(coll, (nb) => nb >= 10 && nb <= 20) // Nb impaires
+const res3 = filter(coll, (nb) => nb >= 10 && nb <= 20) // Nb compris entre 10 et 20
 
 console.log('res1 :>> ', res1);
 console.log('res2 :>> ', res2);

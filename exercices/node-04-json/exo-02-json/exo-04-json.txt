@@ -1,0 +1,15 @@
+# Exercice - Énoncé
+
+## Json
+
+Lire le fichier "personnage.json"
+
+L'objectif est d'obtenir la liste des personnages. 
+Une fois obtenu, l'enregister dans un fichier JSON.
+Le résultat doit reprendre : 
+      - Le nombre de personnage
+      - Une liste de personnages
+            - prenom
+            - nom
+
+NB : Le fichier peut évoluer, mais la logique de structure ne change pas!

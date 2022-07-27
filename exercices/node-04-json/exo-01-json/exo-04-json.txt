@@ -1,0 +1,14 @@
+# Exercice - Énoncé
+
+## Fichiers
+
+Lire le fichier json "students.json"
+
+- Obtenir la moyenne de chaque section sous forme :
+      Section Dev 1010 - Moyenne XX
+
+- Obtenir la moyenne générale des élèves
+
+- Obtenir la liste des professeurs
+
+- Obtenir la liste des élèves

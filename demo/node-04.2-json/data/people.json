@@ -1,0 +1,24 @@
+{
+  "people": [
+    {
+      "firstname": "Zaza",
+      "lastname": "Vanderquack"
+    },
+    {
+      "firstname": "Balthazar",
+      "lastname": "Picsou"
+    },
+    {
+      "firstname": "Gontran",
+      "lastname": "Bonheur"
+    },
+    {
+      "firstname": "Archibald",
+      "lastname": "Gripsou"
+    },
+    {
+      "firstname": "Della",
+      "lastname": "Duck"
+    }
+  ]
+}

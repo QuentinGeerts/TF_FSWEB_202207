@@ -1,0 +1,18 @@
+{
+  "name": "demo-modules",
+  "version": "1.0.0",
+  "description": "Utilisation des modules locaux",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "modules"
+  ],
+  "author": "Quentin",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "demo-modules-suite",
+  "version": "1.0.0",
+  "description": "Demo des modules avec la syntaxe ES2015+",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "nodejs",
+    "ES2015+"
+  ],
+  "type": "module",
+  "author": "Quentin",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}

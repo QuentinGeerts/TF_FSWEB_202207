@@ -26,12 +26,12 @@ process.stdin.on('readable', () => {
       console.log(`${temp}°C ${desc}`);
     })
     .catch(err => {
-      console.log('err :>> ', err);
+      console.log('err :>>> ', err)
 
       const { status, statusText } = err.response
       const message = err.response.data.message
 
-      console.log(`${message}`);
+      console.log(`${message}`)
     })
 
 })

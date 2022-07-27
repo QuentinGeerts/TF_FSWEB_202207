@@ -1,0 +1,20 @@
+Créer un programme qui permet de gérer une base de données
+
+> La base de données contient deux tables
+
+  - User :
+    - user_id
+    - pseudo
+
+  - Tweet :
+    - tweet_id
+    - message
+    - user_id
+
+> Faire en sorte de pouvoir
+  - Insérer et récupérer les utilisateurs
+  - Insérer et récupérer les tweets
+  - Récupérer les tweets d'un seul utilisateur
+  - Modifier le pseudo d'un utilisateur
+  - Modifier un tweet
+

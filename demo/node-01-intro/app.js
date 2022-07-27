@@ -9,9 +9,13 @@ process.stdin.on('readable', () => {
 
   const buffer = process.stdin.read()
   const message = buffer.toString('utf-8').trim()
-  console.log(`Le buffer est : '${buffer}'`);
-  console.log(`Le message est : '${message}'`);
 
-  process.stdout.write("Sortie par le process")
+  // Affichage avec l'objet "console"
+  console.log(`Le buffer vaut : '${buffer}'`);
+  console.log(`Le message vaut : '${message}'`);
+
+  // Affichage avec l'objet "process"
+  process.stdout.write(`Le buffer vaut : '${buffer}'`)
+  process.stdout.write(`Le message vaut : '${message}'`)
 
 })
