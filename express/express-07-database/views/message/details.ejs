@@ -1,0 +1,25 @@
+<%- include('../partials/_header.ejs') %>
+
+  <h1>Page - Message</h1>
+
+  <h2>
+    Détails du message <%= message.messageId %>
+  </h2>
+
+  <p>
+    Date de création: <%= formattedCreateDate %> 
+  </p>
+  <p>
+    Date de création: <%= message.createdAt %> 
+  </p>
+  <p>
+    Pseudo: <%= message.pseudo %> 
+  </p>
+
+  <p>
+    Contenu: <%= message.content %> 
+  </p>
+
+
+
+  <%- include('../partials/_footer.ejs') %>

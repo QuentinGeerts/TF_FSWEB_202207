@@ -1,0 +1,38 @@
+<%- include('../partials/_header.ejs') %>
+
+<h1>Page Contact 📕</h1>
+
+<form method="post">
+
+  <div>
+    <label for="email">Email :</label>
+    <input type="email" name="email" id="email" required>
+  </div>
+
+  <div>
+    <label for="category">Catégorie :</label>
+    <select name="category" id="category" required>
+      <option value=""selected disabled>Vos besoins</option>
+
+      <% categories.forEach(category => { %>
+       <option value="category">
+        <%= category %> 
+       </option>
+      <% }) %>
+
+    </select>
+  </div>
+
+  <div>
+    <label for="message">Message :</label>
+    <textarea name="message" id="message" required></textarea>
+  </div>
+
+  <div>
+    <button type="submit">Envoyer</button>
+    <button type="reset">Effacer</button>
+  </div>
+
+</form>
+
+<%- include('../partials/_footer.ejs') %>

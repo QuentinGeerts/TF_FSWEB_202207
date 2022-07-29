@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h3>Formailre d'ajout d'étudiant</h3>
+
+  <form method="post" name="add-student">
+
+    <div>
+      <label for="lastname">Nom :</label>
+      <input type="text" name="lastname" id="lastname">
+    </div>
+
+    <div>
+      <label for="firstname">Prénom :</label>
+      <input type="text" name="firstname" id="firstname">
+    </div>
+
+    <div>
+      <label for="year_result">Résultat</label>
+      <input type="text" name="year_result" id="year_result">
+    </div>
+
+    <div>
+      <label for="remark">Remarque :</label>
+      <textarea name="remark" id="remark"></textarea>
+    </div>
+
+    <div>
+      <button type="submit" id="btnSubmit">Créer l'étudiant</button>
+      <button type="reset">Effacer le formulaire</button>
+    </div>
+
+  </form>
+
+  <script>
+
+    // Code JS pour le client
+    const inputResult = document.forms["add-student"].year_result
+    const btnSubmit = document.getElementById('btnSubmit')
+
+    inputResult.addEventListener('keyup', (e) => {
+
+      const isOk = inputResult.value === '' || !isNaN(parseFloat(inputResult.value))
+      btnSubmit.disabled = !isOk
+
+    })
+
+  </script>
+  
+</body>
+
+</html>

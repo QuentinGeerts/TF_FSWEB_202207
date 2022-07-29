@@ -1,0 +1,30 @@
+<%- include('../partials/_header.ejs') %>
+
+<h1>Page Contact 📕</h1>
+
+<form method="post" enctype="multipart/form-data">
+
+  <div>
+    <label for="pseudo">Pseudo :</label>
+    <input type="text" name="pseudo" id="pseudo" required>
+  </div>
+
+  
+
+  <div>
+    <label for="nbPerson">Nombre de personnes :</label>
+    <textarea name="nbPerson" id="nbPerson" required></textarea>
+  </div>
+
+  <div>
+    <label for="myFile">Fichier :</label>
+    <input type="file" name="myFile" id="myFile">
+  </div>
+
+  <div>
+    <button type="submit">Envoyer</button>
+  </div>
+
+</form>
+
+<%- include('../partials/_footer.ejs') %>

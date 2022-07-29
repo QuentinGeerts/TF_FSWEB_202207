@@ -1,0 +1,13 @@
+<%- include('../partials/_header.ejs') %> 
+
+<h1>Page - Message</h1>
+
+<dl>
+  <% messages.forEach(msg => { %>
+   <dt><%= msg.pseudo %></dt>
+   <dd><%= msg.content %></dd>
+   <dd><%= msg.createdAt %></dd>
+  <% }) %>
+</dl>
+
+<%- include('../partials/_footer.ejs') %> 

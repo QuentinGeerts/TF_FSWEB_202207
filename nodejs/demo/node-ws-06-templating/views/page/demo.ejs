@@ -1,0 +1,16 @@
+<% const dir = process.cwd() %>
+
+<%- include(dir + '/views/partials/_header.ejs' ) %>
+
+<h1>Demo !</h1>
+
+<ul>
+  <% console.log(people) %> 
+  <% for( let { firstname, lastname } of people ) { %>
+      <li>
+        <%= firstname %> <%= lastname %> 
+      </li>
+  <% } %>
+</ul>
+
+<%- include(dir + '/views/partials/_footer.ejs' ) %>

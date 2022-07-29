@@ -1,0 +1,38 @@
+<%- include('../partials/_header.ejs') %>
+
+  <h1>Ajout d'un message</h1>
+
+  <form method="post">
+
+    <div>
+      <label for="pseudo">Pseudo :</label>
+      <input type="text" name="pseudo" id="pseudo" value="<%= data['pseudo'] %> ">
+
+      <% if (errors && errors['pseudo']) { %>
+        <span class="label-error">
+          <%= errors['pseudo'] %>
+        </span>
+        <% } %>
+
+    </div>
+
+    <div>
+      <label for="msg">Message :</label>
+      <input type="text" name="msg" id="msg" value="<%= data['msg'] %> ">
+
+      <% if (errors && errors['msg']) { %>
+        <span class="label-error">
+          <%= errors['msg'] %>
+        </span>
+        <% } %>
+    </div>
+
+    <div>
+      <button type="submit">Envoyer</button>
+    </div>
+
+  </form>
+
+
+
+  <%- include('../partials/_footer.ejs') %>

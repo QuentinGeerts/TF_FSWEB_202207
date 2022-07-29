@@ -1,0 +1,1 @@
+console.log('Salut, je suis un script client :D')
